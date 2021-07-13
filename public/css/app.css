@@ -181,3 +181,35 @@ section .container span {
   cursor: pointer;
 }
 
+footer {
+  padding: 50px;
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .container {
+  align-items: center;
+}
+
+footer .container span {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1289f8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer .container img {
+  width: 30%;
+}
+
+footer .container .links {
+  margin: 50px 0;
+  font-size: 32px;
+}
+
+footer .container .links a {
+  color: white;
+}
+

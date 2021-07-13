@@ -11,3 +11,7 @@
 @section('comics-main')
     @include('comics-section')
 @endsection
+
+@section('footer')
+    @include('partials/footer')
+@endsection

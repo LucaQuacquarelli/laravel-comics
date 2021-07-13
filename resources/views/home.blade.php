@@ -19,3 +19,7 @@
     </div>
 </main>
 @endsection
+
+@section('footer')
+    @include('partials/footer')
+@endsection

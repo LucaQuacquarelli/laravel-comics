@@ -1,0 +1,33 @@
+footer {
+    padding: 50px;
+    background-image: url("/images/footer-bg.jpg");
+    background-size: cover;
+
+    .container {
+        align-items: center;
+        
+        span {
+            padding: 10px 20px;
+            text-transform: uppercase;
+            color: white;
+            background-color: $bg-theme;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    
+        img {
+            width: 30%;
+        }
+
+        .links {
+            margin: 50px 0;
+            font-size: 32px;
+
+            a {
+                color: white;
+            }
+        }
+
+    }
+
+}

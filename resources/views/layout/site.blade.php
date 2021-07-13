@@ -12,5 +12,6 @@
         @yield('home-main')
         @yield('comics-header')
         @yield('comics-main')
+        @yield('footer')
     </body>
 </html>

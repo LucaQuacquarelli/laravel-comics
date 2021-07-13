@@ -2,7 +2,7 @@
     <div class="container">
         <div class="logo-container">
             <a href="/">
-                <img src="{{asset("images/dc-logo.png")}}" alt="">
+                <img src="{{asset("images/dc-logo.png")}}" alt="dc logo">
             </a>
         </div>
         <div class="menu-container">

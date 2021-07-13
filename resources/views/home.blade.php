@@ -15,7 +15,7 @@
             <p>Read :</p>
             <a href="/comics">comics</a>
         </div>
-        <img src="{{asset("images/dc-logo-bg.png")}}" alt="">
+        <img src="{{asset("images/dc-logo-bg.png")}}" alt="dc big logo">
     </div>
 </main>
 @endsection

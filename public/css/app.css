@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;
+
+700&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container .logo-container {
+  width: 5%;
+}
+
+nav .container .logo-container img {
+  width: 100%;
+}
+
+nav .container .menu-container {
+  width: 85%;
+  margin: 0 25px;
+  text-align: center;
+}
+
+nav .container .menu-container a {
+  padding: 30px 0;
+  text-transform: uppercase;
+  color: #464646;
+  transition: 0.3s;
+}
+
+nav .container .menu-container a:hover,
+nav .container .menu-container a.active {
+  color: #1289f8;
+  border-bottom: 5px solid #1289f8;
+}
+
+nav .container .search-container {
+  width: 10%;
+  position: relative;
+}
+
+nav .container .search-container input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #1289f8;
+  color: #464646;
+  outline: none;
+  text-align: center;
+}
+
+nav .container .search-container i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  color: #464646;
+}
+
+main {
+  padding: 50px 0;
+  background-color: #1c1c1c;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .title h1 {
+  color: #1289f8;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+main .container .title p {
+  margin: 100px 0 25px;
+  font-size: 32px;
+  color: white;
+}
+
+main .container .title a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1289f8;
+  border-radius: 10px;
+}
+
+main .container img {
+  width: 30%;
+}
+
+.info-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #1289f8;
+}
+
